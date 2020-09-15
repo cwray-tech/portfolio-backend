@@ -17,6 +17,7 @@
     "sqlite3": "latest",
     "strapi": "3.2.5",
     "strapi-admin": "3.2.5",
+    "strapi-connector-bookshelf": "^3.3.4",
     "strapi-connector-mongoose": "^3.3.3",
     "strapi-plugin-content-manager": "3.2.5",
     "strapi-plugin-content-type-builder": "3.2.5",
