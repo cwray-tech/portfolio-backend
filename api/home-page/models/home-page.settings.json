@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "home_pages",
   "info": {
-    "name": "home page"
+    "name": "Home Page"
   },
   "options": {
     "increments": true,
@@ -15,6 +15,9 @@
     },
     "meta_description": {
       "type": "text"
+    },
+    "main_content": {
+      "type": "richtext"
     }
   }
 }

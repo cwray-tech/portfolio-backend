@@ -42,6 +42,10 @@
     "technologies": {
       "via": "posts",
       "collection": "technology"
+    },
+    "tags": {
+      "via": "posts",
+      "collection": "tag"
     }
   }
 }
