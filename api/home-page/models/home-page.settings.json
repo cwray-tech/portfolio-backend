@@ -12,6 +12,9 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "meta_description": {
+      "type": "text"
     }
   }
 }

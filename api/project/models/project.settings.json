@@ -1,32 +1,23 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "projects",
   "info": {
-    "name": "post"
+    "name": "project"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "body": {
-      "type": "richtext",
-      "required": true
+    "description": {
+      "type": "richtext"
     },
-    "seo_description": {
-      "type": "text",
-      "required": true
-    },
-    "category": {
-      "via": "posts",
-      "model": "category"
-    },
-    "image": {
-      "model": "file",
+    "images": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -36,11 +27,19 @@
       "plugin": "upload",
       "required": false
     },
-    "published_at": {
-      "type": "date"
+    "main_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
     },
     "technologies": {
-      "via": "posts",
+      "via": "projects",
       "collection": "technology"
     }
   }

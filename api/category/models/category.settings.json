@@ -15,8 +15,11 @@
       "unique": true
     },
     "posts": {
-      "via": "category",
-      "collection": "post"
+      "collection": "post",
+      "via": "category"
+    },
+    "description": {
+      "type": "string"
     }
   }
 }
