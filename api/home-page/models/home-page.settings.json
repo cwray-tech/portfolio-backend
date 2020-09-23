@@ -16,7 +16,13 @@
     "meta_description": {
       "type": "text"
     },
-    "main_content": {
+    "name": {
+      "type": "string"
+    },
+    "content_left": {
+      "type": "richtext"
+    },
+    "content_right": {
       "type": "richtext"
     }
   }
