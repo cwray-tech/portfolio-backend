@@ -15,8 +15,8 @@
       "unique": true
     },
     "posts": {
-      "collection": "post",
-      "via": "category"
+      "via": "category",
+      "collection": "post"
     },
     "description": {
       "type": "string"

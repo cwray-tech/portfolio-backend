@@ -24,6 +24,33 @@
     },
     "content_right": {
       "type": "richtext"
+    },
+    "hero_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "hero_button_cta_text": {
+      "type": "string",
+      "required": false,
+      "default": "Hire Me"
+    },
+    "hero_button_cta_route": {
+      "type": "string",
+      "required": false,
+      "default": "/posts"
+    },
+    "hero_button_2_text": {
+      "type": "string"
+    },
+    "hero_button_2_route": {
+      "type": "string"
     }
   }
 }

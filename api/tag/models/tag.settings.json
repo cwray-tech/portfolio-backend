@@ -14,8 +14,8 @@
       "required": true
     },
     "posts": {
-      "collection": "post",
       "via": "tags",
+      "collection": "post",
       "dominant": true
     }
   }

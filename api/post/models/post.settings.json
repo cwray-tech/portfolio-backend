@@ -22,8 +22,8 @@
       "required": true
     },
     "category": {
-      "via": "posts",
-      "model": "category"
+      "model": "category",
+      "via": "posts"
     },
     "image": {
       "model": "file",
@@ -40,12 +40,16 @@
       "type": "date"
     },
     "technologies": {
-      "via": "posts",
-      "collection": "technology"
+      "collection": "technology",
+      "via": "posts"
     },
     "tags": {
-      "via": "posts",
-      "collection": "tag"
+      "collection": "tag",
+      "via": "posts"
+    },
+    "preview": {
+      "type": "text",
+      "required": false
     }
   }
 }

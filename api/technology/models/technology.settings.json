@@ -22,8 +22,8 @@
       "dominant": true
     },
     "posts": {
-      "collection": "post",
       "via": "technologies",
+      "collection": "post",
       "dominant": true
     }
   }
