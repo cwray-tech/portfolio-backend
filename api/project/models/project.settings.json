@@ -39,8 +39,14 @@
       "required": true
     },
     "technologies": {
-      "via": "projects",
-      "collection": "technology"
+      "collection": "technology",
+      "via": "projects"
+    },
+    "introduction": {
+      "type": "text"
+    },
+    "image_caption": {
+      "type": "string"
     }
   }
 }

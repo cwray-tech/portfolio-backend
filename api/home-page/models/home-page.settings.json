@@ -19,12 +19,6 @@
     "name": {
       "type": "string"
     },
-    "content_left": {
-      "type": "richtext"
-    },
-    "content_right": {
-      "type": "richtext"
-    },
     "hero_image": {
       "model": "file",
       "via": "related",
@@ -51,6 +45,19 @@
     },
     "hero_button_2_route": {
       "type": "string"
+    },
+    "introduction_heading": {
+      "type": "string",
+      "required": false
+    },
+    "introduction_subheading": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
