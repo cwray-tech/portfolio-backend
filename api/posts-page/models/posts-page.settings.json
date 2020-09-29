@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "posts_pages",
+  "info": {
+    "name": "Posts Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}
