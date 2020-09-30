@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "projects_pages",
+  "collectionName": "technology_pages",
   "info": {
-    "name": "Projects Page"
+    "name": "Technology Page"
   },
   "options": {
     "increments": true,
