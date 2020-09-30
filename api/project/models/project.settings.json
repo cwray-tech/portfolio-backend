@@ -39,8 +39,8 @@
       "required": true
     },
     "technologies": {
-      "via": "projects",
-      "collection": "technology"
+      "collection": "technology",
+      "via": "projects"
     },
     "introduction": {
       "type": "text"
@@ -48,13 +48,13 @@
     "image_caption": {
       "type": "string"
     },
-    "category": {
-      "model": "category",
-      "via": "projects"
-    },
     "slug": {
       "type": "string",
       "unique": true
+    },
+    "category": {
+      "via": "projects",
+      "model": "category"
     }
   }
 }

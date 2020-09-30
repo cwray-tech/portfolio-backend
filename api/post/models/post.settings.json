@@ -23,8 +23,8 @@
       "required": true
     },
     "category": {
-      "model": "category",
-      "via": "posts"
+      "via": "posts",
+      "model": "category"
     },
     "image": {
       "model": "file",

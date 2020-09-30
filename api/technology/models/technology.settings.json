@@ -17,8 +17,8 @@
       "type": "text"
     },
     "projects": {
-      "collection": "project",
       "via": "technologies",
+      "collection": "project",
       "dominant": true
     },
     "posts": {

@@ -15,19 +15,19 @@
       "unique": true
     },
     "posts": {
-      "via": "category",
-      "collection": "post"
+      "collection": "post",
+      "via": "category"
     },
     "description": {
       "type": "string"
     },
-    "projects": {
-      "via": "category",
-      "collection": "project"
-    },
     "slug": {
       "type": "string",
       "unique": true
+    },
+    "projects": {
+      "collection": "project",
+      "via": "category"
     }
   }
 }
