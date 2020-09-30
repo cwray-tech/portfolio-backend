@@ -39,14 +39,22 @@
       "required": true
     },
     "technologies": {
-      "collection": "technology",
-      "via": "projects"
+      "via": "projects",
+      "collection": "technology"
     },
     "introduction": {
       "type": "text"
     },
     "image_caption": {
       "type": "string"
+    },
+    "category": {
+      "model": "category",
+      "via": "projects"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
     }
   }
 }

@@ -20,6 +20,14 @@
     },
     "description": {
       "type": "string"
+    },
+    "projects": {
+      "via": "category",
+      "collection": "project"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
     }
   }
 }

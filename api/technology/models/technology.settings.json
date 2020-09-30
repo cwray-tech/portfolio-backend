@@ -17,14 +17,17 @@
       "type": "text"
     },
     "projects": {
-      "via": "technologies",
       "collection": "project",
+      "via": "technologies",
       "dominant": true
     },
     "posts": {
       "via": "technologies",
       "collection": "post",
       "dominant": true
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
