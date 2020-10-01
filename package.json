@@ -28,7 +28,7 @@
     "strapi-utils": "3.1.4"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Chris Wray"
   },
   "strapi": {
     "uuid": "3d894982-6f2d-459d-87e2-e3589fe0369e"
