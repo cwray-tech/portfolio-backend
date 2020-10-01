@@ -19,7 +19,7 @@
       "via": "category"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "slug": {
       "type": "string",
