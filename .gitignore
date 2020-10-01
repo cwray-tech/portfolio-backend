@@ -9,8 +9,8 @@ Icon
 .Spotlight-V100
 .Trashes
 ._*
-
-
+.vscode
+.deployment
 ############################
 # Linux
 ############################
