@@ -41,8 +41,8 @@
       "type": "date"
     },
     "technologies": {
-      "collection": "technology",
-      "via": "posts"
+      "via": "posts",
+      "collection": "technology"
     },
     "preview": {
       "type": "text",

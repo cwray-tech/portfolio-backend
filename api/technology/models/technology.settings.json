@@ -17,16 +17,22 @@
       "type": "text"
     },
     "projects": {
-      "via": "technologies",
       "collection": "project",
+      "via": "technologies",
       "dominant": true
     },
     "posts": {
-      "via": "technologies",
       "collection": "post",
+      "via": "technologies",
       "dominant": true
     },
     "slug": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_text": {
       "type": "string"
     }
   }

@@ -39,8 +39,8 @@
       "required": true
     },
     "technologies": {
-      "collection": "technology",
-      "via": "projects"
+      "via": "projects",
+      "collection": "technology"
     },
     "introduction": {
       "type": "text"
