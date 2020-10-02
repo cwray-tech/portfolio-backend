@@ -53,8 +53,19 @@
       "unique": true
     },
     "category": {
-      "via": "projects",
-      "model": "category"
+      "model": "category",
+      "via": "projects"
+    },
+    "preview": {
+      "type": "text",
+      "maxLength": 600,
+      "minLength": 400
+    },
+    "link": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
     }
   }
 }

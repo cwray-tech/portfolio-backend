@@ -26,8 +26,8 @@
       "unique": true
     },
     "projects": {
-      "collection": "project",
-      "via": "category"
+      "via": "category",
+      "collection": "project"
     }
   }
 }
