@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "posts",
   "info": {
-    "name": "post"
+    "name": "post",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
   "attributes": {
     "title": {
@@ -23,8 +25,8 @@
       "required": true
     },
     "category": {
-      "via": "posts",
-      "model": "category"
+      "model": "category",
+      "via": "posts"
     },
     "image": {
       "model": "file",
@@ -37,12 +39,9 @@
       "plugin": "upload",
       "required": false
     },
-    "published_at": {
-      "type": "date"
-    },
     "technologies": {
-      "via": "posts",
-      "collection": "technology"
+      "collection": "technology",
+      "via": "posts"
     },
     "preview": {
       "type": "text",
