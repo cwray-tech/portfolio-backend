@@ -11,9 +11,6 @@ module.exports = {
       if (data.title) {
         data.slug = slugify(data.title, { lower: true });
       }
-    },
-    beforeUpdate: async (params, data) => {
-      data.slug = slugify(data.title, { lower: true });
-    },
+    }
   },
 };

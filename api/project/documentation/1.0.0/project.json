@@ -705,6 +705,9 @@
                 "link_text": {
                   "type": "string"
                 },
+                "published_at": {
+                  "type": "datetime"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -753,6 +756,9 @@
                   "type": "string"
                 }
               },
+              "published_at": {
+                "type": "datetime"
+              },
               "created_by": {
                 "type": "string"
               },
@@ -771,6 +777,9 @@
           },
           "github": {
             "type": "string"
+          },
+          "published_at": {
+            "type": "datetime"
           }
         }
       },
@@ -813,6 +822,9 @@
           },
           "github": {
             "type": "string"
+          },
+          "published_at": {
+            "type": "datetime"
           },
           "created_by": {
             "type": "string"

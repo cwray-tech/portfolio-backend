@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "projects",
   "info": {
-    "name": "project"
+    "name": "project",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
   "attributes": {
     "name": {
@@ -53,8 +55,8 @@
       "unique": true
     },
     "category": {
-      "model": "category",
-      "via": "projects"
+      "via": "projects",
+      "model": "category"
     },
     "preview": {
       "type": "text",

@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "category"
+    "name": "category",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
   "attributes": {
     "name": {
@@ -15,8 +17,8 @@
       "unique": true
     },
     "posts": {
-      "via": "category",
-      "collection": "post"
+      "collection": "post",
+      "via": "category"
     },
     "description": {
       "type": "text"
@@ -26,8 +28,8 @@
       "unique": true
     },
     "projects": {
-      "via": "category",
-      "collection": "project"
+      "collection": "project",
+      "via": "category"
     }
   }
 }

@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "technologies",
   "info": {
-    "name": "technology"
+    "name": "technology",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
   "attributes": {
     "name": {
@@ -22,8 +24,8 @@
       "dominant": true
     },
     "posts": {
-      "via": "technologies",
       "collection": "post",
+      "via": "technologies",
       "dominant": true
     },
     "slug": {

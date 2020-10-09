@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/08/2020 3:39:45 PM"
+    "x-generation-date": "10/09/2020 12:41:43 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6735,6 +6735,9 @@
                 "github": {
                   "type": "string"
                 },
+                "published_at": {
+                  "type": "datetime"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -6743,6 +6746,9 @@
                 }
               }
             }
+          },
+          "published_at": {
+            "type": "datetime"
           }
         }
       },
@@ -6771,6 +6777,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "published_at": {
+            "type": "datetime"
           },
           "created_by": {
             "type": "string"
@@ -7112,6 +7121,9 @@
                   "type": "string"
                 }
               },
+              "published_at": {
+                "type": "datetime"
+              },
               "created_by": {
                 "type": "string"
               },
@@ -7224,6 +7236,9 @@
                 },
                 "link_text": {
                   "type": "string"
+                },
+                "published_at": {
+                  "type": "datetime"
                 },
                 "created_by": {
                   "type": "string"
@@ -7516,6 +7531,9 @@
                 "link_text": {
                   "type": "string"
                 },
+                "published_at": {
+                  "type": "datetime"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -7564,6 +7582,9 @@
                   "type": "string"
                 }
               },
+              "published_at": {
+                "type": "datetime"
+              },
               "created_by": {
                 "type": "string"
               },
@@ -7582,6 +7603,9 @@
           },
           "github": {
             "type": "string"
+          },
+          "published_at": {
+            "type": "datetime"
           }
         }
       },
@@ -7624,6 +7648,9 @@
           },
           "github": {
             "type": "string"
+          },
+          "published_at": {
+            "type": "datetime"
           },
           "created_by": {
             "type": "string"
@@ -7778,6 +7805,9 @@
                 "github": {
                   "type": "string"
                 },
+                "published_at": {
+                  "type": "datetime"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -7847,6 +7877,9 @@
           },
           "link_text": {
             "type": "string"
+          },
+          "published_at": {
+            "type": "datetime"
           }
         }
       },
@@ -7881,6 +7914,9 @@
           },
           "link_text": {
             "type": "string"
+          },
+          "published_at": {
+            "type": "datetime"
           },
           "created_by": {
             "type": "string"

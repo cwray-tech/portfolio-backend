@@ -583,6 +583,9 @@
                 "github": {
                   "type": "string"
                 },
+                "published_at": {
+                  "type": "datetime"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -652,6 +655,9 @@
           },
           "link_text": {
             "type": "string"
+          },
+          "published_at": {
+            "type": "datetime"
           }
         }
       },
@@ -686,6 +692,9 @@
           },
           "link_text": {
             "type": "string"
+          },
+          "published_at": {
+            "type": "datetime"
           },
           "created_by": {
             "type": "string"
