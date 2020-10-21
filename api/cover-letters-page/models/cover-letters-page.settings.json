@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "cover_letters_pages",
+  "info": {
+    "name": "Cover Letters Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cover-letters-page",
+      "handler": "cover-letters-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cover-letters-page",
+      "handler": "cover-letters-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cover-letters-page",
+      "handler": "cover-letters-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

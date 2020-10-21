@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cover-letters",
+      "handler": "cover-letter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cover-letters/count",
+      "handler": "cover-letter.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cover-letters/:id",
+      "handler": "cover-letter.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cover-letters",
+      "handler": "cover-letter.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cover-letters/:id",
+      "handler": "cover-letter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cover-letters/:id",
+      "handler": "cover-letter.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
