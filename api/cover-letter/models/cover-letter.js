@@ -12,6 +12,8 @@ module.exports = {
         data.slug = slugify(data.title, {
           lower: true,
           remove: /[*+~.()'"!:@]/g,
+          strict: true,
+          locale: "en",
         });
       }
     },
