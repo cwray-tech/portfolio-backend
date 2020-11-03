@@ -14,7 +14,6 @@
     "create-slug": "^1.0.2",
     "knex": "<0.20.0",
     "pg": "^8.3.3",
-    "slugify": "^1.4.5",
     "sqlite3": "latest",
     "strapi": "3.2.3",
     "strapi-admin": "3.2.3",
