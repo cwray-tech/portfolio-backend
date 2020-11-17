@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/15/2020 12:59:29 AM"
+    "x-generation-date": "11/17/2020 10:56:51 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7500,7 +7500,7 @@
                   "type": "string"
                 },
                 "published_at": {
-                  "type": "datetime"
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -7572,7 +7572,7 @@
                   "type": "string"
                 },
                 "published_at": {
-                  "type": "datetime"
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -7584,7 +7584,8 @@
             }
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           }
         }
       },
@@ -7615,7 +7616,8 @@
             }
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -7775,7 +7777,8 @@
             "type": "string"
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           }
         }
       },
@@ -7794,7 +7797,8 @@
             "type": "string"
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -7825,7 +7829,8 @@
             "type": "string"
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           }
         }
       },
@@ -7844,7 +7849,8 @@
             "type": "string"
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -8125,7 +8131,7 @@
                 }
               },
               "published_at": {
-                "type": "datetime"
+                "type": "string"
               },
               "created_by": {
                 "type": "string"
@@ -8241,7 +8247,7 @@
                   "type": "string"
                 },
                 "published_at": {
-                  "type": "datetime"
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -8259,7 +8265,8 @@
             "type": "string"
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           }
         }
       },
@@ -8295,7 +8302,8 @@
             "type": "string"
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -8535,7 +8543,7 @@
                   "type": "string"
                 },
                 "published_at": {
-                  "type": "datetime"
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -8586,7 +8594,7 @@
                 }
               },
               "published_at": {
-                "type": "datetime"
+                "type": "string"
               },
               "created_by": {
                 "type": "string"
@@ -8608,7 +8616,8 @@
             "type": "string"
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           }
         }
       },
@@ -8653,7 +8662,8 @@
             "type": "string"
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -8809,7 +8819,7 @@
                   "type": "string"
                 },
                 "published_at": {
-                  "type": "datetime"
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -8861,7 +8871,7 @@
                   "type": "string"
                 },
                 "published_at": {
-                  "type": "datetime"
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -8882,7 +8892,8 @@
             "type": "string"
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           }
         }
       },
@@ -8919,7 +8930,8 @@
             "type": "string"
           },
           "published_at": {
-            "type": "datetime"
+            "type": "string",
+            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -9014,6 +9026,9 @@
                   "type": "string"
                 },
                 "resetPasswordToken": {
+                  "type": "string"
+                },
+                "confirmationToken": {
                   "type": "string"
                 },
                 "confirmed": {
@@ -9159,9 +9174,13 @@
           },
           "password": {
             "type": "string",
+            "format": "password",
             "minLength": 6
           },
           "resetPasswordToken": {
+            "type": "string"
+          },
+          "confirmationToken": {
             "type": "string"
           },
           "confirmed": {

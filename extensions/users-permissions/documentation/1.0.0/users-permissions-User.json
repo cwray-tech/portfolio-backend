@@ -1272,9 +1272,13 @@
           },
           "password": {
             "type": "string",
+            "format": "password",
             "minLength": 6
           },
           "resetPasswordToken": {
+            "type": "string"
+          },
+          "confirmationToken": {
             "type": "string"
           },
           "confirmed": {
