@@ -680,6 +680,9 @@
                 "link_text": {
                   "type": "string"
                 },
+                "show": {
+                  "type": "boolean"
+                },
                 "published_at": {
                   "type": "string"
                 },

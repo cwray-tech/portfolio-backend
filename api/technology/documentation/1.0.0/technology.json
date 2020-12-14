@@ -656,6 +656,10 @@
           "link_text": {
             "type": "string"
           },
+          "show": {
+            "type": "boolean",
+            "default": true
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -693,6 +697,10 @@
           },
           "link_text": {
             "type": "string"
+          },
+          "show": {
+            "type": "boolean",
+            "default": true
           },
           "published_at": {
             "type": "string",
