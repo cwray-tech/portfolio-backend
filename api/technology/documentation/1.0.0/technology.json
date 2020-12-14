@@ -517,7 +517,8 @@
       "Technology": {
         "required": [
           "id",
-          "name"
+          "name",
+          "show"
         ],
         "properties": {
           "id": {
@@ -668,7 +669,8 @@
       },
       "NewTechnology": {
         "required": [
-          "name"
+          "name",
+          "show"
         ],
         "properties": {
           "name": {
