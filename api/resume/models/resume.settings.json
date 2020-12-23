@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "resumes",
+  "info": {
+    "name": "Resume",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "resume_pdf": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

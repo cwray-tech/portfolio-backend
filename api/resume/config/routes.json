@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/resume",
+      "handler": "resume.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/resume",
+      "handler": "resume.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/resume",
+      "handler": "resume.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
