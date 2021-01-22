@@ -115,3 +115,6 @@ build
 yarn.lock
 package-lock.json
 .vs/ProjectSettings.json
+extensions/documentation/documentation/1.0.0/full_documentation.json
+extensions/documentation/documentation/1.0.0/full_documentation.json
+.gitignore
