@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thought-page",
+      "handler": "thought-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thought-page",
+      "handler": "thought-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thought-page",
+      "handler": "thought-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

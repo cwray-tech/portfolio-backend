@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thoughts",
+  "info": {
+    "name": "Thoughts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "thought": {
+      "type": "string"
+    }
+  }
+}

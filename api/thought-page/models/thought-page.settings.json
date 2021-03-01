@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "thought_pages",
+  "info": {
+    "name": "Thought Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}
