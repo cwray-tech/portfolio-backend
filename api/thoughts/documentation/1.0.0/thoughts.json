@@ -257,7 +257,7 @@
     "/thoughts/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of thoughts documents",
+        "description": "Retrieve the number of thoughts documents",
         "responses": {
           "200": {
             "description": "Retrieve thoughts document(s)",
