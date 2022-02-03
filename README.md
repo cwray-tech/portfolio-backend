@@ -96,6 +96,10 @@ module.exports = ({ env }) => ({
 });
 ```
 
+### Set up a Sendgrid account
+
+In order to use the email plugin, set up a Sendgrid account and add your Sendgrid API key to the env file.
+
 ### Start the server in development mode
 
 Using Yarn
