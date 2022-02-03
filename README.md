@@ -42,7 +42,7 @@ npm install
 
 ### Create an env file.
 
-Copy the env.example file, and add your environment configurations. The host and port do not need to be changed, but if you want to utilize Cloudinary for file uploads, and MongoDB for the database, you will need to create accounts on each of these platforms.
+Copy the env.example file to .env, and add your environment configurations. The host and port do not need to be changed, but if you want to utilize Cloudinary for file uploads, and MongoDB for the database, you will need to create accounts on each of these platforms.
 
 ### Create a Cloudinary account
 
