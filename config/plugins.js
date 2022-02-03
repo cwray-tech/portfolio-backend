@@ -13,8 +13,8 @@ module.exports = ({ env }) => ({
       apiKey: env("SENDGRID_API_KEY"),
     },
     settings: {
-      defaultFrom: "chris@solmediaco.com",
-      defaultReplyTo: "chris@solmediaco.com",
+      defaultFrom: env("EMAIL_DEFAULT_FROM"),
+      defaultReplyTo: env("EMAIL_DEFAULT_REPLY_TO"),
     },
   },
 });

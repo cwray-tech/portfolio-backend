@@ -1,7 +1,7 @@
 {
   "name": "portfolio-backend",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The backend of my personal portfolio website, a work in progress.",
   "scripts": {
     "dev": "strapi develop",
@@ -15,6 +15,7 @@
     "knex": "<0.20.0",
     "pg": "^8.5.1",
     "sqlite": "^4.0.19",
+    "sqlite3": "^5.0.2",
     "strapi": "^3.6.8",
     "strapi-admin": "^3.6.8",
     "strapi-connector-bookshelf": "^3.6.8",
@@ -37,8 +38,8 @@
     "uuid": "3d894982-6f2d-459d-87e2-e3589fe0369e"
   },
   "engines": {
-    "node": "12.5.0",
-    "npm": "6.0.0"
+    "node": "12.x.x || 14.x.x",
+    "npm": "*"
   },
   "license": "MIT"
 }
