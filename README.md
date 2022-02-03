@@ -66,9 +66,9 @@ upload: {
 
 ### Set up a MongoDB atlas cluster
 
-If you want to use MongoDB, follow the [getting started with Atlas guide](https://docs.atlas.mongodb.com/getting-started/?_ga=2.4563131.920976329.1643907102-735601706.1643758841&_gac=1.146756166.1643758841.Cj0KCQiA0eOPBhCGARIsAFIwTs76SnZs7BbvgidCHxu9fcxFSsj7MRSGdClsvvIRq1BXHWYC3rKDHMAaAt7uEALw_wcB#deploy-a-free-tier-cluster) and create a new database. You will need to create a database user, and get the connection url from MongoDB, then add that url to the env file you just created.on
+If you want to use MongoDB, follow the [getting started with Atlas guide](https://docs.atlas.mongodb.com/getting-started/?_ga=2.4563131.920976329.1643907102-735601706.1643758841&_gac=1.146756166.1643758841.Cj0KCQiA0eOPBhCGARIsAFIwTs76SnZs7BbvgidCHxu9fcxFSsj7MRSGdClsvvIRq1BXHWYC3rKDHMAaAt7uEALw_wcB#deploy-a-free-tier-cluster) and create a new database. You will need to create a database user, and get the connection url from MongoDB, then add that url to the env file you just created.
 
-**A note on this.** There is no reason why you have to use MongoDB. In fact, if you are planning to upgrade your Strapi version to V4 in the future, I would recommend going with one of the other options, like SQLite, PostgreSQL, or MySql.
+**A note on this.** There is no reason why you have to use MongoDB. In fact, if you are planning to upgrade your Strapi version to V4 in the future, I would recommend going with one of the other options, like SQLite, PostgreSQL, or MySQL.
 
 #### If you want to switch Databases
 
