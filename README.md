@@ -76,7 +76,7 @@ Follow the [Strapi docs](https://docs-v3.strapi.io/developer-docs/latest/setup-d
 
 **If you want to use a simple SQLite database:**
 
-In config/env/development/database.js and config/env/production update the database.js file to the following
+In config/env/development/database.js and config/env/production update the database.js file to the following:
 
 ```javascript
 module.exports = ({ env }) => ({
