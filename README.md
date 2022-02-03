@@ -97,7 +97,7 @@ The previous command will start a server on port 1337. You can visit the Strapi 
 
 ## Permissions
 
-One thing you will notice when you first build your app that you will be unable to view your data from the URL publicly, and if you happened to also use my frontend portion of my portfolio, data will not be loaded when building the frontend.
+One thing you will notice when you first build your app is that you will be unable to view your data from the URL publicly, and if you happened to also use the frontend portion of my portfolio, data will not be loaded when building the frontend.
 
 This is because Strapi has a unique permissions format that is not set in the code base. The permission settings are saved to your database, so any permissions that I have changed do not apply to your app.
 
