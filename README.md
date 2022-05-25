@@ -1,6 +1,9 @@
 # Portfolio Backend for [chriswray.dev](https://chriswray.dev)
 
-This is the backend for [my personal blog and portfolio website](https://chriswray.dev). I decided to use Strapi for the CMS because I wanted to get a better understanding of a JavaScript backend, and better hone in my JavaScript Skills.
+This is the backend for [my personal blog and portfolio website](https://chriswray.dev).
+
+![Chris-Wray-Full-Stack-Engineer-Dreamer-Father-Husband-screenshot](https://user-images.githubusercontent.com/53663762/170277669-a70c5630-d42f-4054-b28e-ef9d33c02cdf.png)
+
 
 ## Installation Instructions
 
