@@ -12,7 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "create-slug": "^1.0.4",
-    "knex": "0.19.5",
+    "knex": "2.1.0",
     "pg": "^8.5.1",
     "sqlite": "^4.0.19",
     "sqlite3": "^5.0.2",
