@@ -12,7 +12,6 @@
   "devDependencies": {},
   "dependencies": {
     "create-slug": "^1.0.4",
-    "knex": "2.4.2",
     "pg": "^8.5.1",
     "sqlite": "^4.0.19",
     "sqlite3": "^5.0.2",
@@ -24,7 +23,6 @@
     "strapi-plugin-content-type-builder": "^3.6.8",
     "strapi-plugin-documentation": "^3.6.8",
     "strapi-plugin-email": "^3.6.8",
-    "strapi-plugin-graphql": "^3.6.8",
     "strapi-plugin-upload": "^3.6.8",
     "strapi-plugin-users-permissions": "^3.6.8",
     "strapi-provider-email-sendgrid": "^3.6.8",
