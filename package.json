@@ -13,7 +13,7 @@
   "dependencies": {
     "create-slug": "^1.0.4",
     "pg": "^8.5.1",
-    "sqlite": "^4.0.19",
+    "sqlite": "^5.1.1",
     "sqlite3": "^5.0.2",
     "strapi": "^3.6.8",
     "strapi-admin": "^3.6.8",
